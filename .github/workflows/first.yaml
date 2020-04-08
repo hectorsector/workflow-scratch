@@ -1,0 +1,10 @@
+name: CI
+on: [issue_comment]
+
+jobs:
+
+  hello-world:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Run a one-line script
+        run: echo Hello, world!
